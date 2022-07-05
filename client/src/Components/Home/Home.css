@@ -1,0 +1,729 @@
+/* html{
+    background-image: url("http://wallpapers.net/web/wallpapers/spot-light-background-hd-wallpaper/thumbnail/lg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+} */
+
+
+
+
+
+@media (min-width: 1281px) {
+
+    /* .task-view{
+        width: 500px;
+        height: 550px;
+        margin-left: 20px;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .search-log {
+        margin-top: 20%;
+    } */
+
+    .task-view {
+        width: 700px;
+        height: 550px;
+        margin-left: 20px;
+    }
+
+    .parent-container {
+        width: auto;
+        position: relative;
+    }
+
+    .home-container {
+        position: absolute;
+        top: -10%;
+        left: 3%;
+        overflow: hidden;
+    }
+    .search-log{
+        margin-top: 10%;
+        display: flex;
+        gap: 30px;
+    }
+    .search{
+        width: 80%;
+    }
+    .logout-btn{
+
+    }
+    .background-img{
+    
+        width: 100vw !important;
+height: 100vh !important;
+    }
+    .image {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .task-add-form {
+        width: 500px !important;
+        margin-left: 50px;
+    }
+    .task {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        /* display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important; */
+        flex-direction: column;
+    }
+
+    .task-todo{
+        width: 95%;
+    }
+
+    .task-done{
+        width: 95%;
+    }
+
+
+}
+
+@media (min-width : 1400px)  {
+    .taskname-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 30px;
+        width: 60%;
+    }
+
+
+    .todo-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .logout-btn {
+        min-width: 100px;
+    }
+
+    .home-container {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    .task {
+        width: 1000px;
+        height: auto;
+        margin-left: 20px;
+        /* display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important; */
+        flex-direction: column;
+    }
+
+
+    .background-img {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+
+
+    .search-log {
+        width: 100%;
+        /* height: 300px; */
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 20%;
+        
+    }
+
+
+
+    .search {
+        width: 80%;
+    }
+
+    .suggestion {
+        width: 100%;
+    }
+
+
+    .task-add-form {
+        width: 500px !important;
+        margin-left: 15px;
+    }
+
+    .parent-container {
+        overflow: hidden;
+    }
+
+    .task-todo {
+        width: 50%;
+    }
+
+    .task-done {
+        width: 50%;
+    }
+}
+
+@media (min-width : 1800px)  {
+
+    .todo-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .logout-btn {
+        min-width: 100px;
+    }
+
+    .home-container {
+        position: absolute;
+        top: 5%;
+    }
+
+    .task {
+        width: 1000px;
+        height: auto;
+        margin-left: 20px;
+        /* display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important; */
+        flex-direction: column;
+    }
+
+    .taskname-header {
+        flex-wrap: nowrap;
+    }
+
+    .background-img {
+        width: 100vw !important;
+        height: auto !important;
+
+    }
+
+
+    .search-log {
+        width: 100%;
+        /* height: 300px; */
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 20%;
+        
+    }
+
+
+
+    .search {
+        width: 80%;
+    }
+
+    .suggestion {
+        width: 100%;
+    }
+
+
+    .task-add-form {
+        width: 500px !important;
+    }
+
+    .parent-container {
+        overflow: hidden;
+    }
+    .home-container{
+        margin-left: -100px;
+    }
+
+    .task-todo {
+        width: 50%;
+    }
+
+    .task-done {
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .task {
+        width: 500px;
+        height: 550px;
+        margin-left: 20px;
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+
+    .search-log {
+        margin-top: 20%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .search {
+        width: 80% !important;
+    }
+
+    .task-container {
+        padding-right: 180px !important;
+    }
+
+    .task-todo {
+        width: 80% !important;
+    }
+
+    .task-done {
+        width: 80% !important;
+        margin-left: 0% !important;
+    }
+
+    .task-add-form {
+        width: 50%;
+    }
+
+    .task-view {
+        width: 50% !important;
+    }
+
+    .background-img {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+
+    .parent-container {
+        width: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .home-container {
+        position: absolute;
+        top: -8%;
+        left: 20%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block
+    }
+    .task {
+        width: 100% !important;
+        height: 550px;
+        margin-left: 20px;
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+
+    .search-log {
+        width: 100%;
+        /* height: 300px; */
+        display: flex;
+        gap: 30px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 20%;
+    }
+
+
+
+    .search {
+        width: 300px !important;
+        margin-left: -270px;
+    }
+
+    .logout-btn {
+        margin-right: 50px !important;
+    }
+
+
+    .task-todo {
+        width: 100% !important;
+    }
+
+    .task-done {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+    .task-add-form {
+        width: 100%;
+        margin-left: -180px;
+    }
+
+    .task-view {
+        width: 100% !important;
+        margin-left: -36% !important;
+
+    }
+
+    .background-img {
+        width: 100vw;
+        height: 100vh !important;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .parent-container {
+        width: auto;
+        position: relative !important;
+        overflow-x: hidden;
+    }
+
+    .home-container {
+        position: absolute;
+        top: 10%;
+        left: 35%;
+
+    }
+
+    .taskname-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 80%;
+    }
+
+    .todo-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .task {
+        width: 100% !important;
+        height: 550px;
+        margin-left: 20px;
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    
+    .search-log {
+        margin-top: 20%;
+        display: flex;
+        gap: 50px;
+
+
+
+    }
+
+    .image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block
+    }
+
+    .search {
+        width: 60% !important;
+        margin-left: 65px;
+    }
+
+    .task-todo {
+        width: 100% !important;
+    }
+
+    .task-done {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .task-add-form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .taskname-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+
+    .todo-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+
+    .task-view {
+        width: 80% !important;
+        margin-left: 6% !important;
+        /* margin: auto; */
+
+
+    }
+
+    /* .search-log{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    } */
+    .add-task-btn {
+        padding-left: 10px;
+    }
+
+    /* .del-task-btn{
+        padding-left: 10px;
+    } */
+
+    .title-text {
+        color: crimson;
+    }
+
+    .background-img {
+        /* width: 100% !important; */
+        height: 100vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-container {
+        width: 100%;
+        position: relative !important;
+        /* margin-left: -100px; */
+        overflow-x: hidden;
+    }
+
+    .home-container {
+        position: absolute;
+        top: -8%;
+
+    }
+
+
+
+
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .loader {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        /* height: 100vh;
+        width: 100vw;
+        top: 50%;
+        left: 50%; */
+        transform: translate(-50%,-50%);
+    }
+    /* .home-container{
+        background-image: url("http://wallpapers.net/web/wallpapers/spot-light-background-hd-wallpaper/thumbnail/lg.jpg");
+        width: auto !important;
+        height: auto !important;
+        background-repeat: no-repeat;
+    } */
+
+    .image{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    .task {
+        width: 100% !important;
+        height: 550px;
+        /* margin-left: 20px; */
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+
+    .search-log {
+        margin-top: 30%;
+        display: flex;
+        gap: 50px;
+
+    }
+
+    .search {
+        width: 100% !important;
+        height: 50% !important;
+
+        margin-left: 30px;
+    }
+
+    .task-todo {
+        width: 100% !important;
+    }
+
+    .task-done {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .task-add-form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .taskname-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 70%;
+    }
+
+    .todo-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 70%;
+    }
+
+    .task-view {
+        width: 88% !important;
+        margin-left: 6% !important;
+        /* margin: auto; */
+
+
+    }
+
+    /* .search-log{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    } */
+    .add-task-btn {
+        padding: 5px;
+    }
+
+    /* .del-task-btn{
+        padding-left: 10px;
+    } */
+
+    .title-text {
+        color: crimson;
+    }
+
+    .background-img {
+        /* width: 100% !important; */
+        height: 100vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-container {
+        width: 100%;
+        position: relative !important;
+        /* margin-left: -100px; */
+        /* overflow: hidden; */
+        overflow-x: hidden;
+    }
+
+    .home-container {
+        position: absolute;
+        top: -8%;
+
+    }
+
+    .logout-btn {
+        margin-right: 7%;
+        width: 60%;
+        height: 50%;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 2001px) {
+
+    .task-todo {
+        width: 78%;
+    }
+    
+    .task-done {
+        /* margin-left: 10px; */
+        width: 78%;
+    }
+    
+    .search {
+        width: 100%;
+    }
+    
+    .suggestion:hover {
+        background-color: black !important;
+    }
+    
+    .image {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .background-img {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+    
+    .task-title {
+        width: 300px;
+    }
+    
+   
+    
+    .title-text {
+        color: crimson;
+        padding-left: 30px;
+    }
+    .home-container{
+    position:absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%,-50%);
+}
+.search-log{
+    margin-top: 0% !important;
+}
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* height: 100vh;
+    width: 100vw;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+}

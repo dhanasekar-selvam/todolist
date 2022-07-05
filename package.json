@@ -1,0 +1,24 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "creating tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "dhanasekar",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.28.0",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-swagger": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}

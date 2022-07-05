@@ -1,0 +1,21 @@
+.centered-container{
+    position: absolute;
+    top:15%;
+        left: 50%;
+    transform: translate(-50%,15%);
+}
+
+.login-btn{
+    margin-left: 10px;
+    
+}
+.btn:hover{
+    background: darkblue;
+}
+
+@media (max-width:1770px)
+{
+    .d-flex{
+        flex-direction: column;
+    }
+}

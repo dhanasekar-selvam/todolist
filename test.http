@@ -1,0 +1,29 @@
+
+GET http://localhost:3000/users/ HTTP/1.1
+
+###
+GET http://localhost:5000/mongo/users/ HTTP/1.1
+
+
+#get single user
+###
+GET http://localhost:3000/user/1 HTTP/1.1
+
+###
+POST http://localhost:3000/user/add 
+Content-Type: application/json
+
+{
+    "name":"dhanasekar"
+}
+
+###
+DELETE  http://localhost:3000/user/delete/aee6caf7-9c0d-47e7-884d-34e8837d40b2 HTTP/1.1
+
+###
+PUT http://localhost:3000/user/update/2 
+Content-Type: application/json
+
+{
+    "name":"ajithkumar"
+}
